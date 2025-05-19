@@ -383,3 +383,36 @@ img {
     h3 { font-size: 1.4em; }
     h4 { font-size: 1.2em; }
 }
+
+/* --- DARK MODE (Modo oscuro) --- */
+body {
+    background-color: #181a20;  /* Fondo general oscuro */
+    color: #e0e0e0;             /* Texto claro para buena lectura */
+}
+
+:root {
+    --primary-color: #0d6efd;        /* Azul más vivo, puedes ajustar */
+    --secondary-color: #23272f;      /* Fondo de tarjetas y secciones */
+    --text-color: #e0e0e0;           /* Texto claro */
+    --heading-color: #ffffff;        /* Títulos más blancos */
+    --accent-color: #ffc107;         /* Amarillo (puedes dejar igual) */
+    --border-color: #3a3f4b;         /* Bordes gris-oscuro */
+    --card-bg: #23272f;              /* Fondo de tarjetas */
+}
+
+/* Opcional: ajusta navbar, footer, cards, etc. */
+.navbar, .footer, .level-card, .feature-card, .instructor, .cta-section {
+    background-color: var(--card-bg) !important;
+}
+
+.level-header, .feature-header {
+    background-color: #23272f !important;
+    color: var(--accent-color) !important;
+}
+
+a {
+    color: #7dc4ff;
+}
+a:hover {
+    color: #ffc107;
+}
