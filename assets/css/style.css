@@ -386,7 +386,7 @@ img {
 
 /* --- DARK MODE (Modo oscuro) --- */
 body {
-    background-color: #181a20;  /* Fondo general oscuro */
+    background-color: #181a20 !important;;  /* Fondo general oscuro */
     color: #e0e0e0;             /* Texto claro para buena lectura */
 }
 
