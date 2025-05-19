@@ -72,9 +72,366 @@
 
     <!-- Curriculum Section -->
     <section id="curriculum" class="curriculum">
-        <div class="container">
-            <!-- ... (curriculum unchanged, copiado aquí para brevedad, ver archivo original) ... -->
-            <!-- PEGA AQUÍ TODO EL CONTENIDO DE LA SECCIÓN CURRÍCULUM DEL ARCHIVO ORIGINAL -->
+          <div class="container">
+            <h2>Currículum del Curso Detallado</h2>
+
+            <!-- NIVEL 1 -->
+            <div class="level-card">
+                <div class="level-header">
+                    <h3>Nivel 1: Sistema Base - Fundamentos Esenciales</h3>
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                </div>
+                <div class="level-content">
+                    <!-- Feature 1.1 -->
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Feature 1.1: Motor de Ejecución y Sintaxis Primaria</h4>
+                            <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Capacidad de escribir y ejecutar los comandos más básicos de Python.</p>
+                            <strong>Qué aprenderás:</strong>
+                            <ul>
+                                <li>Instalación de Python y VS Code.</li>
+                                <li>Tu primer script: `print("Hola Mundo")`.</li>
+                                <li>Variables y asignación.</li>
+                                <li>Tipos de datos: strings, números, booleanos.</li>
+                                <li>Operadores aritméticos básicos.</li>
+                            </ul>
+                            <p><strong>Entregable esperado:</strong> Script `calculadora_basica.py`.</p>
+                            <div class="practice-area">
+                                <label for="f11_notes">Mis Notas / Ejemplos:</label>
+                                <textarea id="f11_notes" placeholder="Escribe tus notas, ideas o ejemplos aquí..."></textarea>
+                                <label for="f11_code">Mi Código de Práctica:</label>
+                                <textarea id="f11_code" placeholder="print('Hola desde mi práctica!')"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feature 1.2 -->
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Feature 1.2: Controlador de Flujo Lógico</h4>
+                             <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Capacidad de tomar decisiones y repetir acciones en el código.</p>
+                            <strong>Qué aprenderás:</strong>
+                            <ul>
+                                <li>Operadores de comparación y lógicos.</li>
+                                <li>Condicionales: `if`, `elif`, `else`.</li>
+                                <li>Bucles: `while`, `for` (con `range()`).</li>
+                                <li>Instrucciones `break` y `continue`.</li>
+                            </ul>
+                            <p><strong>Entregable esperado:</strong> Script `adivina_numero.py`.</p>
+                            <div class="practice-area">
+                                <label for="f12_notes">Mis Notas / Ejemplos:</label>
+                                <textarea id="f12_notes" placeholder="Escribe tus notas, ideas o ejemplos aquí..."></textarea>
+                                <label for="f12_code">Mi Código de Práctica:</label>
+                                <textarea id="f12_code" placeholder="numero_secreto = 7\nif numero_secreto > 5:\n    print('Mayor a 5')"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feature 1.3 -->
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Feature 1.3: Organizador de Datos Simples</h4>
+                            <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Capacidad de almacenar y manipular colecciones de datos.</p>
+                             <strong>Qué aprenderás:</strong>
+                            <ul>
+                                <li>Listas: creación, acceso, métodos básicos.</li>
+                                <li>Tuplas: creación, inmutabilidad.</li>
+                                <li>Diccionarios: creación, acceso, métodos básicos.</li>
+                            </ul>
+                            <p><strong>Entregable esperado:</strong> Script `lista_de_tareas.py`.</p>
+                            <div class="practice-area">
+                                <label for="f13_notes">Mis Notas / Ejemplos:</label>
+                                <textarea id="f13_notes" placeholder="Escribe tus notas, ideas o ejemplos aquí..."></textarea>
+                                <label for="f13_code">Mi Código de Práctica:</label>
+                                <textarea id="f13_code" placeholder="mi_lista = [1, 2, 3]\nmi_diccionario = {'clave': 'valor'}"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Feature 1.4 -->
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Feature 1.4: Mecanismo de Reutilización (Funciones)</h4>
+                            <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Capacidad de encapsular bloques de código para su reutilización.</p>
+                             <strong>Qué aprenderás:</strong>
+                            <ul>
+                                <li>Definición de funciones (`def`).</li>
+                                <li>Parámetros y argumentos.</li>
+                                <li>Valores de retorno (`return`).</li>
+                            </ul>
+                            <p><strong>Entregable esperado:</strong> Refactorizar `lista_de_tareas.py` usando funciones.</p>
+                            <div class="practice-area">
+                                <label for="f14_notes">Mis Notas / Ejemplos:</label>
+                                <textarea id="f14_notes" placeholder="Escribe tus notas, ideas o ejemplos aquí..."></textarea>
+                                <label for="f14_code">Mi Código de Práctica:</label>
+                                <textarea id="f14_code" placeholder="def saludar(nombre):\n    return f'Hola, {nombre}!'"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NIVEL 2 -->
+            <div class="level-card">
+                <div class="level-header">
+                    <h3>Nivel 2: Sistema Mejorado - Python Intermedio</h3>
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                </div>
+                <div class="level-content">
+                    <!-- Feature 2.1 -->
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Feature 2.1: Constructor de Entidades (OOP Básica)</h4>
+                             <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Modelar conceptos del mundo real como objetos.</p>
+                            <strong>Qué aprenderás:</strong> Clases, Objetos, `__init__`, atributos, métodos, `self`.
+                            <p><strong>Entregable esperado:</strong> Script `gestor_biblioteca_simple.py` con clase `Libro`.</p>
+                            <div class="practice-area">
+                                <label for="f21_notes">Mis Notas / Ejemplos:</label>
+                                <textarea id="f21_notes"></textarea>
+                                <label for="f21_code">Mi Código de Práctica:</label>
+                                <textarea id="f21_code" placeholder="class Perro:\n    def __init__(self, nombre):\n        self.nombre = nombre"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feature 2.2 -->
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Feature 2.2: Persistencia de Datos y Robustez</h4>
+                             <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Guardar datos en archivos y manejar errores.</p>
+                            <strong>Qué aprenderás:</strong> Archivos de texto, JSON, `try-except`.
+                            <p><strong>Entregable esperado:</strong> Modificar gestor para guardar/cargar en JSON.</p>
+                            <div class="practice-area">
+                                <label for="f22_notes">Mis Notas / Ejemplos:</label>
+                                <textarea id="f22_notes"></textarea>
+                                <label for="f22_code">Mi Código de Práctica:</label>
+                                <textarea id="f22_code" placeholder="try:\n    with open('datos.txt', 'r') as f:\n        contenido = f.read()\nexcept FileNotFoundError:\n    print('Archivo no encontrado')"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feature 2.3 -->
+                     <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Feature 2.3: Modularización Avanzada y Entornos Aislados</h4>
+                             <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Organizar código en módulos y gestionar dependencias.</p>
+                            <strong>Qué aprenderás:</strong> Creación e importación de módulos, `venv`, `requirements.txt`.
+                            <p><strong>Entregable esperado:</strong> Proyecto con módulo `utilidades.py` y entorno virtual.</p>
+                            <div class="practice-area">
+                                <label for="f23_notes">Mis Notas / Ejemplos:</label>
+                                <textarea id="f23_notes"></textarea>
+                                <label for="f23_code">Mi Código de Práctica:</label>
+                                <textarea id="f23_code" placeholder="# en utilidades.py\ndef mi_funcion():\n    return 'Utilidad'\n\n# en main.py\nfrom utilidades import mi_funcion"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Feature 2.4 -->
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Feature 2.4: OOP Avanzada - Herencia y Polimorfismo</h4>
+                             <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Crear jerarquías de clases y comportamientos flexibles.</p>
+                            <strong>Qué aprenderás:</strong> Herencia, sobrescritura de métodos, polimorfismo, `__str__`.
+                            <p><strong>Entregable esperado:</strong> Script `sistema_animales.py` con clases `Animal`, `Perro`, `Gato`.</p>
+                            <div class="practice-area">
+                                <label for="f24_notes">Mis Notas / Ejemplos:</label>
+                                <textarea id="f24_notes"></textarea>
+                                <label for="f24_code">Mi Código de Práctica:</label>
+                                <textarea id="f24_code" placeholder="class Animal:\n    def hacer_sonido(self):\n        pass\n\nclass Perro(Animal):\n    def hacer_sonido(self):\n        return 'Guau!'"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NIVEL 3 -->
+            <div class="level-card">
+                <div class="level-header">
+                    <h3>Nivel 3: Sistema Conectado y Probado - Python Aplicado</h3>
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                </div>
+                <div class="level-content">
+                    <!-- Feature 3.1 -->
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Feature 3.1: Garantía de Calidad (Testing con Pytest)</h4>
+                            <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Escribir pruebas automatizadas para asegurar la fiabilidad del código.</p>
+                            <strong>Qué aprenderás:</strong> Conceptos de testing, `pytest`, aserciones.
+                            <p><strong>Entregable esperado:</strong> Tests unitarios para `utilidades.py` y clases anteriores.</p>
+                            <div class="practice-area">
+                                <label for="f31_notes">Mis Notas / Ejemplos:</label>
+                                <textarea id="f31_notes"></textarea>
+                                <label for="f31_code">Mi Código de Práctica:</label>
+                                <textarea id="f31_code" placeholder="# test_utilidades.py\nfrom utilidades import mi_funcion\n\ndef test_mi_funcion():\n    assert mi_funcion() == 'Utilidad'"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feature 3.2 -->
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Feature 3.2: Interfaz de Servicio Web (API con FastAPI Básico)</h4>
+                            <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Exponer funcionalidades de tu código a través de una API web.</p>
+                            <strong>Qué aprenderás:</strong> API REST, FastAPI, Uvicorn, Pydantic, JSON.
+                            <p><strong>Entregable esperado:</strong> API simple para gestor de biblioteca con endpoints GET y POST.</p>
+                            <div class="practice-area">
+                                <label for="f32_notes">Mis Notas / Ejemplos:</label>
+                                <textarea id="f32_notes"></textarea>
+                                <label for="f32_code">Mi Código de Práctica:</label>
+                                <textarea id="f32_code" placeholder="from fastapi import FastAPI\napp = FastAPI()\n\n@app.get('/')\ndef raiz():\n    return {'mensaje': 'Hola API'}"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feature 3.3 -->
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Feature 3.3: Extractor de Información Web (Scraping Básico)</h4>
+                            <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Obtener datos de páginas web de forma automatizada.</p>
+                            <strong>Qué aprenderás:</strong> `requests`, `BeautifulSoup4`, selección de elementos HTML.
+                            <p><strong>Entregable esperado:</strong> Script `scraper_citas.py` para `quotes.toscrape.com`.</p>
+                            <div class="practice-area">
+                                <label for="f33_notes">Mis Notas / Ejemplos:</label>
+                                <textarea id="f33_notes"></textarea>
+                                <label for="f33_code">Mi Código de Práctica:</label>
+                                <textarea id="f33_code" placeholder="import requests\nfrom bs4 import BeautifulSoup\n\nurl = 'http://quotes.toscrape.com/'\nresponse = requests.get(url)\nsoup = BeautifulSoup(response.text, 'html.parser')"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feature 3.4 -->
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Feature 3.4: Automatizador de Tareas del Sistema</h4>
+                            <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Escribir scripts que interactúen con el sistema operativo.</p>
+                            <strong>Qué aprenderás:</strong> Módulos `os` y `shutil`.
+                            <p><strong>Entregable esperado:</strong> Script `organizador_descargas.py`.</p>
+                            <div class="practice-area">
+                                <label for="f34_notes">Mis Notas / Ejemplos:</label>
+                                <textarea id="f34_notes"></textarea>
+                                <label for="f34_code">Mi Código de Práctica:</label>
+                                <textarea id="f34_code" placeholder="import os\nimport shutil\n\n# os.makedirs('nueva_carpeta', exist_ok=True)\n# shutil.move('archivo.txt', 'nueva_carpeta/archivo.txt')"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NIVEL 4 -->
+            <div class="level-card">
+                <div class="level-header">
+                    <h3>Nivel 4: Sistema Especializado - Profesionalización</h3>
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                </div>
+                <div class="level-content">
+                    <p>En este nivel, eliges una o varias "suites de features" para especializar tu sistema. El contenido detallado de cada feature se explorará a medida que avanzas en tu especialización seleccionada.</p>
+                    
+                    <!-- Suite 4.A -->
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Suite de Features 4.A: Backend Robusto y Escalable</h4>
+                            <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Desarrollar aplicaciones backend avanzadas y listas para producción.</p>
+                            <strong>Features Clave:</strong>
+                            <ul>
+                                <li><strong>4.A.1:</strong> Persistencia Profesional (Bases de Datos con SQLAlchemy)</li>
+                                <li><strong>4.A.2:</strong> Seguridad de API (Autenticación y Autorización con OAuth2/JWT)</li>
+                                <li><strong>4.A.3:</strong> Desarrollo Asíncrono con FastAPI (`async`/`await`)</li>
+                                <li><strong>4.A.4:</strong> Despliegue con Docker y Uvicorn/Gunicorn</li>
+                                <li><strong>4.A.5:</strong> Introducción a Microservicios y Caching (Redis)</li>
+                            </ul>
+                            <p><strong>Entregable Típico:</strong> API completa con autenticación, BD relacional, desplegada en Docker.</p>
+                            <div class="practice-area">
+                                <label for="f4A_notes">Mis Notas / Ideas de Proyecto Backend:</label>
+                                <textarea id="f4A_notes" placeholder="Ej: API para una red social, e-commerce, sistema de reservas..."></textarea>
+                                <label for="f4A_code">Fragmentos de Código Relevantes (SQLAlchemy, JWT, Dockerfile):</label>
+                                <textarea id="f4A_code" placeholder="# Modelos SQLAlchemy\n# Lógica de tokens JWT\n# Comandos Docker"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Suite 4.B -->
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Suite de Features 4.B: Inteligencia Artificial y Ciencia de Datos</h4>
+                            <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Aplicar Python para análisis de datos, machine learning y IA.</p>
+                            <strong>Features Clave:</strong>
+                            <ul>
+                                <li><strong>4.B.1:</strong> Manipulación y Análisis de Datos (NumPy y Pandas)</li>
+                                <li><strong>4.B.2:</strong> Visualización de Datos (Matplotlib y Seaborn)</li>
+                                <li><strong>4.B.3:</strong> Machine Learning Aplicado (Scikit-learn: regresión, clasificación)</li>
+                                <li><strong>4.B.4:</strong> Introducción al Deep Learning (TensorFlow o PyTorch)</li>
+                                <li><strong>4.B.5:</strong> Procesamiento de Lenguaje Natural (NLP) básico</li>
+                            </ul>
+                            <p><strong>Entregable Típico:</strong> Modelo predictivo (ej: clasificación de spam), análisis de sentimiento, dashboard interactivo.</p>
+                             <div class="practice-area">
+                                <label for="f4B_notes">Mis Notas / Ideas de Proyecto IA/CD:</label>
+                                <textarea id="f4B_notes" placeholder="Ej: Analizar datos de ventas, predecir precios de acciones, clasificar imágenes..."></textarea>
+                                <label for="f4B_code">Fragmentos de Código Relevantes (Pandas, Scikit-learn):</label>
+                                <textarea id="f4B_code" placeholder="import pandas as pd\nfrom sklearn.model_selection import train_test_split\n\n# df = pd.read_csv(...)\n# model.fit(X_train, y_train)"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Suite 4.C -->
+                    <div class="feature-card">
+                        <div class="feature-header">
+                            <h4>Suite de Features 4.C: Web Scraping y Automatización Avanzada</h4>
+                             <i class="fas fa-chevron-down toggle-icon-feature"></i>
+                        </div>
+                        <div class="feature-content">
+                            <p><strong>Descripción:</strong> Dominar técnicas avanzadas para extracción de datos web y automatización compleja.</p>
+                             <strong>Features Clave:</strong>
+                            <ul>
+                                <li><strong>4.C.1:</strong> Scraping Dinámico con Selenium (interacción con JavaScript)</li>
+                                <li><strong>4.C.2:</strong> Framework Scrapy para scraping a gran escala</li>
+                                <li><strong>4.C.3:</strong> Manejo de proxies, CAPTCHAs (con ética) y user-agents</li>
+                                <li><strong>4.C.4:</strong> Automatización de infraestructura con Ansible (Python-based)</li>
+                                <li><strong>4.C.5:</strong> Interacción con APIs de servicios en la nube (Boto3 para AWS)</li>
+                            </ul>
+                            <p><strong>Entregable Típico:</strong> Scraper robusto para sitios complejos, scripts de Ansible para configurar servidores.</p>
+                             <div class="practice-area">
+                                <label for="f4C_notes">Mis Notas / Ideas de Proyecto Scraping/Automatización:</label>
+                                <textarea id="f4C_notes" placeholder="Ej: Monitor de precios de productos, agregador de noticias, script de despliegue automático..."></textarea>
+                                <label for="f4C_code">Fragmentos de Código Relevantes (Selenium, Scrapy, Ansible):</label>
+                                <textarea id="f4C_code" placeholder="from selenium import webdriver\n\n# driver = webdriver.Chrome()\n# driver.get('...')"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
